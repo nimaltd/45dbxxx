@@ -11,6 +11,6 @@ Please Do This ...
 <br />
 2) Select "General peripheral Initalizion as a pair of '.c/.h' file per peripheral" on project settings.
 <br />
-3) Config your 45dbxx.h file.
+3) Config your 45dbxxConfig.h file.
 <br />
 6) Add AT45dbxx_Init in startup your app. 
