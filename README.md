@@ -13,4 +13,4 @@ Please Do This ...
 <br />
 3) Config your 45dbxxConfig.h file.
 <br />
-6) Add AT45dbxx_Init in startup your app. 
+4) Add AT45dbxx_Init in startup your app. 
