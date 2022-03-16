@@ -3,9 +3,9 @@
 #include "spi.h"
 #if (_45DBXX_USE_FREERTOS==1)
 #include "cmsis_os.h"
-#define	_45DBXX_DELAY(x)	osDelay(x)
+#define	_45DBXX_DELAY(x)	DelayMicro(x*1000)
 #else
-#define	_45DBXX_DELAY(x)	HAL_Delay(x)
+#define	_45DBXX_DELAY(x)	DelayMicro(x*1000)
 #endif
 
 
